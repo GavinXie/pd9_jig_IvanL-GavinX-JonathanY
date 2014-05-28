@@ -1,1 +1,11 @@
 5/26/14 | Jonathan want to make Solitaire
+5/27/14 We reproposed to make Slap Jack instead. Emailed Mr. Brown.
+5/28/14 Talked to Mr. Brown and need to figure out data structure(pros/cons). Also, need to think about stretch goals for our next meeting.
+        We decided to have the discard pile be an ArrayList while the player hands will be queues. The ArrayList will randomly be chosen to be
+        added to the bottom of the queue. 
+        We also need to decide the "slap" and how it will work wheater it is time based or probability based.
+        Stretch Goals Brainstorm: Multiple players on the same keyboard/computer. 
+                                  Special game modes. (More Deck Cards, chance of drawing spec. events, increased range of numbers)
+                                  Combine with other games? (Crazy 8s)
+        Need component breakdown, UML, sequential to-do list.
+                                  
