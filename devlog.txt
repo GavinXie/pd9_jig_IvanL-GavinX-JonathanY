@@ -1,4 +1,4 @@
-5/26/14 | Jonathan want to make Solitaire
+5/26/14 Jonathan wants to make Solitaire. 
 5/27/14 We reproposed to make Slap Jack instead. Emailed Mr. Brown.
 5/28/14 Talked to Mr. Brown and need to figure out data structure(pros/cons). Also, need to think about stretch goals for our next meeting.
         We decided to have the discard pile be an ArrayList while the player hands will be queues. The ArrayList will randomly be chosen to be
@@ -8,4 +8,9 @@
                                   Special game modes. (More Deck Cards, chance of drawing spec. events, increased range of numbers)
                                   Combine with other games? (Crazy 8s)
         Need component breakdown, UML, sequential to-do list.
-                                  
+5/29/14 Today we are creatin gthe card class. It will have ints for the value and string for the suits for instance variables. 
+        Stretch goal achieved! We are making two card games in our project. One will be slapjack and the other will be crazy eights. 
+        Crazy eights is the playing cards version of the classic game uno. We chose to create crazy eights instead of uno so that we can 
+        incorporate the same card class and similiar methods for both card games. We will give the user the option of which game to play
+        in the beginning of the code .
+        
