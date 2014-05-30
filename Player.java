@@ -11,8 +11,8 @@ public class Player{
 	name=this.name;
     }
 
-    public String toString(){
-	
+    public String getName(){
+	return name;
     }
 
     public void add(Card card){
