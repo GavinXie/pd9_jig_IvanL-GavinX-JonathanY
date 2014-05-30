@@ -9,7 +9,9 @@ public class Deck{
     public Deck(){
 	for(int x=1;x<14;x++){
 	    for(int i=0;i<4;i++){
-		Card temp=new Card(x);
+	    	if (i == 0){
+		Card temp=new Card(x,"Diamond");}
+		
 		deck.add(temp);
 	    }
 	}
