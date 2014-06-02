@@ -18,7 +18,9 @@ public class Pile{
 	    pile.add(card);
 	}
     }
-
+	public Card getFirst(){
+		return pile.get(0);
+	}
     public void add(Card card){
 	pile.add(Card);
     }
