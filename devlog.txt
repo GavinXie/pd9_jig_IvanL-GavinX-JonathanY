@@ -19,4 +19,5 @@ completed.
         
 6/2/14 Today we worked on the code for CrazyEights focusing mainly on the turn method and what to do when the player has a valid
         card and when he or she doesn't. We also worked on a deal method. 
-6/3/14 Gavin worked on shuffling and passing out cards, and printing out the hand or deck.
+6/3/14 Gavin worked on shuffling and passing out cards, and printing out the hand or deck. Johnathan finished the main driver with the help of Ivan.
+        
