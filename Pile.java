@@ -13,7 +13,12 @@ public class Pile{
     public Pile(){
 	cardCount=0;
     }
-
+    //Less restrictive add catered to allow a card to be added in the beginning of Crazy Eights.
+    public void addCard(Card a){
+    	pile.add(a);
+    	cardCount++;
+    	System.out.println(a);
+    }
     //First card is taken from player's hand and added to the pile
     public boolean addCard(Player player){
 	Player temp=new Player();
