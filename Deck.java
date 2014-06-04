@@ -38,18 +38,18 @@ public class Deck{
 	deck=temp;
     }
 
-    /*   public void passCards(Hand player, Player player2){
-	 while(deck.size()>0){
-	 int x=52;
-	 Card temp=deck.get(0);
-	 deck.remove(0);
-	 if(x%2==0){
-	 player.add(temp);	    }else{
-	 player2.add(temp);
-	 }
-	 x--;
-	 }
-	 }
-    */
-	    
+  
+    public void passCards(Player player, Player player2){
+	int x=52;
+	while(x>0){
+	    Card temp=deck.get(x-1);
+	    deck.remove(x-1);
+	    if(x%2==0){
+		player.addCard(temp);
+	    }else{
+		player2.addCard(temp);
+	    }
+	    x--;
+        }
+    }
 }
