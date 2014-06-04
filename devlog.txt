@@ -17,5 +17,6 @@
 5/30/14 Additional coding continues today with the Hand class which is going to be the queue. UML diagram is being made and will be
 completed.
         
-6/2/1 Today we worked on the code for CrazyEights focusing mainly on the turn method and what to do when the player has a valid
+6/2/14 Today we worked on the code for CrazyEights focusing mainly on the turn method and what to do when the player has a valid
         card and when he or she doesn't. We also worked on a deal method. 
+6/3/14 Gavin worked on shuffling and passing out cards, and printing out the hand or deck.
