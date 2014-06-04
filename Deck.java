@@ -37,7 +37,9 @@ public class Deck{
 	}
 	deck=temp;
     }
-
+    public Card drawCard(){
+    	return deck.get(0);
+    }	
   
     public void passCards(Player player, Player player2){
 	int x=52;
