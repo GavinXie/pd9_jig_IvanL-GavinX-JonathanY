@@ -27,18 +27,15 @@ public class Player{
 	return !hand.isEmpty();
     }
 
-    //prints out the hand
-    //removes Hand, must have problem somewhere...
+     //prints out the hand
     public String printHand(){
-	Queue<Card> temp;
-	temp=hand;
-	String s="";
-	while(temp.peek()!=null){
-	    s=s+temp.poll()+" ";
+	String s = "";
+	for (Card c: hand){
+	    s = s + c + " ";
 	}
 	return s;
     }
-
+    
     //adds the card to your hand
     public void addCard(Card card){
 	hand.add(card);
