@@ -21,4 +21,6 @@ completed.
         card and when he or she doesn't. We also worked on a deal method. 
 6/3/14 Gavin worked on shuffling and passing out cards, and printing out the hand or deck. Johnathan finished the main driver with the help of Ivan.
 6/4/14 Gavin made the commandline version of SlapJack, but doesn't work because a toString method removes the elements from the Player hand.
-        
+6/5/14 Today we are still working on the driver classes.
+6/6/14 More driver class work.
+6/7/14 We are starting to think about coding GUI with Gavin's expertise. 
