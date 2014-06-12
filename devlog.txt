@@ -23,4 +23,7 @@ completed.
 6/4/14 Gavin made the commandline version of SlapJack, but doesn't work because a toString method removes the elements from the Player hand.
 6/5/14 Today we are still working on the driver classes.
 6/6/14 More driver class work.
-6/7/14 We are starting to think about coding GUI with Gavin's expertise. 
+6/9/14 We are starting to think about coding GUI with Gavin's expertise. 
+6/10/14 Today we worked on coding the cards with the special attributes such as the face cards that skip and reverse and we added
+        variables that would enable these to work. We had to add some modifications so that cards such as the ace can 
+        draw 4 and be a wild card. 
