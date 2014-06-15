@@ -41,7 +41,13 @@ public class Pile{
 	    pile.add(card);
 	    cardCount++;
     }
-
+   //Less restrictive add catered to allow a card to be added in the beginning of Crazy Eights.
+     public void addCard(Card a){
+    	pile.add(a);
+    	cardCount++;
+    	System.out.println(a);
+     }
+     
     public boolean shouldSlap(){
 	Card card=pile.get(pile.size()-1);
 	//if the value of the card is the same as the current count 
