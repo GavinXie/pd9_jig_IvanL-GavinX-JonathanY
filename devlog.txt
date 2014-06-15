@@ -27,3 +27,5 @@ completed.
 6/10/14 Today we worked on coding the cards with the special attributes such as the face cards that skip and reverse and we added
         variables that would enable these to work. We had to add some modifications so that cards such as the ace can 
         draw 4 and be a wild card. 
+6/15/14 Gavin has finished commandline SlapJack and is working on the GUI. 
+        Jonathan's code isn't on GitHub, and he isn't anywhere, so Ivan is attempting to start CrazyEights from scratch if necessary.
