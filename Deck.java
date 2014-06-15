@@ -9,7 +9,7 @@ public class Deck{
     public Deck(){
 	for(int x=1;x<14;x++){
 	    for(int i=0;i<4;i++){
-	    	Card temp=new Card(x,i + 1);}
+		Card temp=new Card(x);
 		deck.add(temp);
 	    }
 	}
@@ -37,21 +37,14 @@ public class Deck{
 	}
 	deck=temp;
     }
-    public Card drawCard(){
-    	return deck.remove(0);
-    }	
-  
-    public void passCards(Player player, Player player2){
-	int x=52;
-	while(x>0){
+
+    public void passCards(Players players){
+	for(int x=52;x>0;x--){
 	    Card temp=deck.get(x-1);
+	    Player player = players.getPlayer();
+	    player.addCard(temp);
 	    deck.remove(x-1);
-	    if(x%2==0){
-		player.addCard(temp);
-	    }else{
-		player2.addCard(temp);
-	    }
-	    x--;
+	    players.rotatePlayers();
         }
     }
 }
