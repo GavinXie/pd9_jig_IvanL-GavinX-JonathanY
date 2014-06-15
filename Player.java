@@ -16,18 +16,23 @@ public class Player{
 
     //Different contructor for real player
     public Player(String name){
-	name=this.name;
+	this.name=name;
     }
 
     public String getName(){
 	return name;
     }
 
+    public String toString(){
+	return name+": "+printHand();
+    }
+
     public boolean hasCards(){
 	return !hand.isEmpty();
     }
 
-     //prints out the hand
+    //prints out the hand
+    //removes Hand, must have problem somewhere...
     public String printHand(){
 	String s = "";
 	for (Card c: hand){
@@ -35,7 +40,7 @@ public class Player{
 	}
 	return s;
     }
-    
+
     //adds the card to your hand
     public void addCard(Card card){
 	hand.add(card);
@@ -49,14 +54,11 @@ public class Player{
     }
 
     public boolean toSlap(Pile pile){
+	System.out.println(name+", please enter <space> to slap or anything else to pass. ");
 	Scanner s = new Scanner(System.in);
 	String cmd = s.nextLine();
 	Boolean yesNO=true;
 	if(cmd.equals(" ")){
-	}else{
-	    yesNO=false;
-	}
-	if(pile.shouldSlap()==true&&yesNO==true){
 	    return true;
 	}else{
 	    return false;
