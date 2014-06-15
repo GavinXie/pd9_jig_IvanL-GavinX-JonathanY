@@ -27,6 +27,10 @@ public class Deck{
 	return deck.size();
     }
 
+    public Card drawCard(){
+ 	return deck.remove(0);
+    }
+    
     public void shuffle(){
 	ArrayList<Card> temp=new ArrayList<Card>();
 	while(deck.size()>0){
