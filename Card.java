@@ -23,7 +23,7 @@ public class Card{
 	    suitName="Spades";
 	}
         cardName=value+" of "+suitName;
-        ImageIcon icon = new ImageIcon(type);
+        ImageIcon icon = new ImageIcon(cardName);
         image = icon.getImage();
     }
 
@@ -36,4 +36,17 @@ public class Card{
     public int getValue(){
 	return value;
     }
+    public int getSuit(){
+	return suit;
+    }
+    public int getX(){
+	return x;
+    }
+    public int getY(){
+	return y;
+    }
+    public Image getPic(){
+	return image;
+    }
+			 
 }
