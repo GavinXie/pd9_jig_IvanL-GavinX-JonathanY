@@ -1,0 +1,24 @@
+Instructions
+
+SlapJack:
+The game starts with a standaard 52 card deck. Each player participating is handed an equal share of this deck.
+No one has the ability to see his or her cards. In the middle is a discard pile. One by one and consecutively,
+each player places their top card into the pile. Each card that is placed in the pile is assigned a value of mod 13.
+Jacks are 11, Queens are 12, Kings are 13. If the card's value is the same as the card itself, players should try to slap the pile. Whoever successfully slaps
+the pile first wins the deck and so, collects the pile and shuffles it and adds it to the bottom of this own deck.
+The game ends when one player  has possession of all the cards.
+
+
+CrazyEights:
+This is a spin off of the classic game Uno. It is played with a standard 52 card deck. At the start each player
+is given 8 cards into their hand. They can view all their cards at once. The objective of the game is to get rid of 
+all the cards in your hand first. You do this by discarding cards from your hand into the pile in the middle. 
+The discard pile is automatically started with one card in the middle. Cards that can be placed have to follow certain rules.
+In general, cards must have the same value or suit as the previously placed card. Exceptions to this rule are when 
+an eight or an ace is place. An eight represents a wild card and hence, can change the suit at will of the player.
+Aces are draw 4s which in addition to the abilities of an eight, forces the next player in line to draw 4 cards from the 
+deck. 
+Other cards that have special abilities are the
+2: draw 2
+Jack: skips the next player
+Queen: reverses the order of turns
