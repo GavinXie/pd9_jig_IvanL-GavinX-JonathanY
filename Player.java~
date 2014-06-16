@@ -26,14 +26,7 @@ public class Player{
     public String toString(){
 	return name+": "+printHand();
     }
-    public String toString2(){
-	String Open = "[ ";
-	for (int i = 0; i < UnoHand.size(); i++){
-	    Open += UnoHand.get(i) +" (" + i + ")" + ", ";
-	}
-	Open+= " ]";
-	return Open;
-    }
+
     public boolean hasCards(){
 	return !hand.isEmpty();
     }

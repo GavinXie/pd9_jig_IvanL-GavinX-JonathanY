@@ -9,7 +9,6 @@ public class Card{
     String cardName, suitName,valueName;
     public Card(int value, int suit){
 	this.value = value;
-	this.suit = suit;
 	if (value == 1){
 	    valueName = "Ace";
 	}else if(value == 11){
