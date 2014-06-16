@@ -1,6 +1,10 @@
 Instructions
+How To Run: Run SuperDriver.java with Command line arguments either being "Slapjack" or "Crazy Eights" if you fail to do so, a prompt will
+show up to help you select a game.
 
-SlapJack:
+The Games:
+
+SlapJack(GUI):
 The game starts with a standaard 52 card deck. Each player participating is handed an equal share of this deck.
 No one has the ability to see his or her cards. In the middle is a discard pile. One by one and consecutively,
 each player places their top card into the pile. Each card that is placed in the pile is assigned a value of mod 13.
@@ -9,7 +13,7 @@ the pile first wins the deck and so, collects the pile and shuffles it and adds 
 The game ends when one player  has possession of all the cards.
 
 
-CrazyEights:
+CrazyEights(Terminal):
 This is a spin off of the classic game Uno. It is played with a standard 52 card deck. At the start each player
 is given 8 cards into their hand. They can view all their cards at once. The objective of the game is to get rid of 
 all the cards in your hand first. You do this by discarding cards from your hand into the pile in the middle. 
