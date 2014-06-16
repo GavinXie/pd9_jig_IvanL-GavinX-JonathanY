@@ -29,3 +29,4 @@ completed.
         draw 4 and be a wild card. 
 6/15/14 Gavin has finished commandline SlapJack and is working on the GUI. 
         Jonathan's code isn't on GitHub, and he isn't anywhere, so Ivan is attempting to start CrazyEights from scratch if necessary.
+6/1614  Jonathan has finished CrazyEights, but the GUI is too much work. Gavin goes to sleep, before working on it later. Jonathan made too many unessesary files... :(
