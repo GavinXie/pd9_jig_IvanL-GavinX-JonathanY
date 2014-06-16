@@ -20,9 +20,9 @@ public class GUI extends JPanel implements ActionListener{
     }
 
     public void paint(Graphics g){
-	super.paint();
+	super.paint(g);
 	Graphics2D g2 = (Graphics2D)g;
-        for(Player temp : Players){
+        for(Player temp : Players.getPlayers()){
 	    for(Card card:temp.getHand()){
 		g2.drawImage(card.getBack(),temp.getX(),temp.getY(),72,96,this);
 	    }	
