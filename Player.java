@@ -7,7 +7,7 @@ public class Player{
 
     public String name,slapKey,noSlapKey;
     public Queue<Card> hand=new ConcurrentLinkedQueue<Card>();
-    public ArrayList<Card> UnoHand;
+    public ArrayList<Card> UnoHand = new ArrayList<Card>();
 
     // Computer
     public Player(){
