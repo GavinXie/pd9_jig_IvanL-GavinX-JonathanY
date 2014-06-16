@@ -45,7 +45,6 @@ public class Pile{
      public void addCard(Card a){
     	pile.add(a);
     	cardCount++;
-    	System.out.println(a);
      }
      
     public boolean shouldSlap(){
