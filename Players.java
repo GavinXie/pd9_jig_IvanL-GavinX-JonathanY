@@ -1,3 +1,6 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.*;
 
@@ -8,19 +11,21 @@ public class Players{
     //needs a scanner method for input a pllayer name
     public Players(int x){
 	String s = "Player";
-	for(int i=0; i<x;i++){
+	for(int i=1; i==x;i++){
 	    System.out.println(s);
-	    Player temp = new Player(s+i);
+	    Player temp = new Player(s+i,i);
 	    System.out.println(s+""+i);
 	    thePlayers.add(temp);
 	}
     }
 
-    public Players(String s){
-	Player temp=new Player(s);
+    public Players(String s, int x){
+	Player temp=new Player(s, 1);
 	thePlayers.add(temp);
-	temp=new Player();
-	thePlayers.add(temp);
+	for(int i=2;i<x+2;i++){
+	    temp=new Player(i);
+	    thePlayers.add(temp);
+	}
     }
 
     public Player getPlayer(){
@@ -31,10 +36,18 @@ public class Players{
 	return thePlayers.size();
     }
 
+    public Queue<Player> getPlayers(){
+	return thePlayers;
+    }
+
     public void printAllHands(){
 	for(Player temp:thePlayers){
 	    System.out.println(temp.getName()+": "+temp.printHand());
 	}
+    }
+
+    public void addPlayer(Player main){
+	thePlayers.add(main);
     }
 
     public void rotatePlayers(){
@@ -68,4 +81,5 @@ public class Players{
 	}
 	return false;
     }
+
 }
